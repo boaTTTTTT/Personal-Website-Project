@@ -1,0 +1,70 @@
+div:nth-child(3){/*แสดงผลdiv ตัวที่3*/
+    margin-left: auto;
+}
+div{
+    font-family: fantasy;    
+    font-size: 1.5em;
+    line-height: 30px;
+    margin:0px 10px;
+    }
+nav{
+    display: flex;
+    margin: 5px;
+    padding:10px 5px;
+    }
+header{
+    font-family: fantasy;
+    font-size: 3em;
+    background-color: wheat;
+    text-align: center;
+    }
+
+#home {
+    width: 640px;
+    height: 480px;
+    background-color: lightblue;
+    background-image: url("//sarun.surge.sh/snakelogo2.png");
+    background-size: auto 480px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 0;
+    margin: 0 auto;
+  }
+  .title {
+    font-weight: bold;
+    font-size: 2.1rem;
+    font-family: "Comfortaa", cursive;
+    text-align: center;
+    margin: 0.25rem auto;
+  }
+  .bottom {
+    margin: 0.5rem auto;
+    text-align: center;
+  }
+  button {
+    background-color: BlueViolet;
+    color: white;
+    border: none;
+    height: 2rem;
+    font-size: 1.2rem;
+    width: 6.5rem;
+    margin: 0.8rem 0 0 0.5rem;
+    display: inline-block;
+  }
+  button:hover {
+    background-color: CornflowerBlue;
+  }
+  button:disabled {
+    background-color: lightgrey;
+    color: DarkSlateGrey;
+  }
+  p {
+    display: inline;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    width: 12rem;
+    margin: 0.6rem 3rem 1.4rem 2.5rem;
+  }
+  body{
+      background-color: antiquewhite;
+  }

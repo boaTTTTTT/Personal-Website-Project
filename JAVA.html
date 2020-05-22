@@ -1,0 +1,51 @@
+<html>
+
+<head>
+    <meta charset='utf-8' />
+    <title>sarun javascript PAGE</title>
+    <!--title name-->
+    <link rel="stylesheet" href="./css/javascript.css">
+    <!--link javascript.css-->
+</head>
+<header>
+    <b>sarun.surge.sh</b>
+    <!--web name-->
+</header>
+
+<body>
+    <nav>
+        <div><a href="index.html">Home</a></div>
+        <!--link text Home-->
+        <div><a href="JAVA.html">JAVA script</a></div>
+        <!--link text JAVA script-->
+        <div><a href="aboutus.html">About ME</a></div>
+        <!--link About Me-->
+    </nav>
+    <div class='game'>
+        <div class="title">Snake Game</div>
+        <!--name game-->
+        <div id='home'>
+            <canvas id='canvas' width='640' height='480'>
+            </canvas>
+        </div>
+        <div class="bottom">
+            <p>Press start to play Snake!</p><br>
+            <!--text-->
+            <button id='btn'>START</button>
+            <!--button-->
+            <br>
+            <button onmousedown="moveup()" onmouseup="clearmove()" ontouchstart="moveup()">ขึ้น</button><br><br>
+            <!--ปุ่มขึ้น-->
+            <button onmousedown="moveleft()" onmouseup="clearmove()" ontouchstart="moveleft()">ซ้าย</button>
+            <!--ปุ่มซ้าย-->
+            <button onmousedown="moveright()" onmouseup="clearmove()" ontouchstart="moveright()">ขวา</button><br><br>
+            <!--ปุ่มขวา-->
+            <button onmousedown="movedown()" onmouseup="clearmove()" ontouchstart="movedown()">ลง</button><br><br>
+            <!--ปุ่มลง-->
+        </div>
+    </div>
+    <script type="text/javascript" src="./js/snake.js"></script>
+    <!--link snake.javascript-->
+</body>
+
+</html>

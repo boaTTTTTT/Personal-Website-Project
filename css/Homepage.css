@@ -1,0 +1,65 @@
+body{
+    background-color: wheat;
+}
+header{
+    font-family: fantasy;
+    font-size: 3em;
+    background-color: antiquewhite;
+    text-align: center;
+
+}
+a{ 
+    font-family: fantasy;
+    font-size: 1em;
+    text-align: center;
+}
+section{
+    display: grid;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 1.5em;
+    background-color: burlywood;
+    height: 200px;
+    margin: 5px 5px;
+    padding: 10px;
+    text-align: center;    
+}
+
+footer{
+    font-size: 1em;
+    line-height: 50px;
+    margin: 5px 5px;
+    padding: 10px;
+    background-color: yellowgreen;
+    text-align: center;
+}
+
+ul>li{/* แสดงผลที่ li ที่เป็น ลูกของ ul*/
+    display: flex;
+    flex-wrap: wrap;
+    display: inline;
+    text-align: center;
+    margin: 5px;
+    padding: 0 11px;
+    box-sizing: border-box;
+}
+nav>div:nth-child(3){/*แสดงผลที่divที่เป็นลูกของnavตัวที่3*/
+    margin-left: auto;
+}
+div{
+    font-family: fantasy;    
+        font-size: 1.5em;
+        line-height: 30px;
+         margin:0px 10px;
+    }
+nav{
+        display: flex;
+        margin: 5px;
+        padding:10px 5px;
+    }
+img{
+    align-content: center;
+    height:  100%;
+    margin-left: auto;
+    margin-right: auto;
+}
